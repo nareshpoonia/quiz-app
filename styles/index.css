@@ -1,6 +1,10 @@
 @import url(/styles/utility.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
 
+:root {
+  --box-shadow: rgba(0, 0, 0, 0.2);
+}
+
 .img-uniform-size {
   width: 100%;
   min-width: 22rem;
@@ -15,7 +19,7 @@
 }
 
 .card-container {
-  max-width: 400rem;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  max-width: 50rem;
+  box-shadow: 0 2px 4px 0 var(--box-shadow), 0 4px 16px 0 var(--box-shadow);
   border: transparent solid;
 }
