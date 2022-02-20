@@ -35,11 +35,6 @@
   border-radius: 5px;
 }
 
-.option-list :hover {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-}
-
 .btn-link {
   padding: 3px 3px;
 }
