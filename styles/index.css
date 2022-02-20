@@ -43,13 +43,3 @@
 .btn-link {
   padding: 3px 3px;
 }
-
-.option-list .wrong {
-  background-color: red;
-  color: white;
-}
-
-.option-list .right {
-  background-color: green;
-  color: white;
-}
