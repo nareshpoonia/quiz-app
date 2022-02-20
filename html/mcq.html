@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link
+      rel="stylesheet"
+      href="https://concreteui.netlify.app/styles/index.css"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="c-navbar flex-center justify-between px-4">
+        <a class="fs-8" href="/index.html">Quiz App </a>
+        <div class="search-bar">
+          <input class="flex-center nav-input" type="search" />
+          <i class="fa fa-search search-icon" aria-hidden="true"></i>
+        </div>
+        <ul class="flex-col text-center">
+          <li class="fs-7 mx-8">
+            <a href="/html/log.html">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="flex-center mt-16">
+      <main class="mcq-container fs-6">
+        <div class="title flex-center fs-7 pb-2">GAME OF THRONES</div>
+        <div class="question">
+          <div class="flex-center pb-4">
+            Who is the youngest of Ned Stark&apos;s children?
+          </div>
+        </div>
+        <div class="option-list ml-16">
+          <div class="options flex p-2 mb-4">
+            <span> Sansa </span>
+          </div>
+          <div class="options flex p-2 mb-4">
+            <span> Rickon </span>
+          </div>
+          <div class="options flex p-2 mb-4">
+            <span> Arya </span>
+          </div>
+          <div class="options flex p-2 mb-4">
+            <span> Bran </span>
+          </div>
+        </div>
+
+        <footer>
+          <div class="total-que flex justify-between ml-16 pb-4">
+            <p>1 of 5 Questions</p>
+            <button class="next-button mr-16 btn-link">Next Question</button>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

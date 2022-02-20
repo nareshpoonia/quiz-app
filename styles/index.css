@@ -23,3 +23,23 @@
   box-shadow: 0 2px 4px 0 var(--box-shadow), 0 4px 16px 0 var(--box-shadow);
   border: transparent solid;
 }
+
+.mcq-container {
+  width: 50rem;
+  box-shadow: 0 2px 4px 0 var(--box-shadow), 0 4px 16px 0 var(--box-shadow);
+}
+
+.options {
+  border: 1px solid var(--primary-color);
+  width: 90%;
+  border-radius: 5px;
+}
+
+.option-list :hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-link {
+  padding: 3px 3px;
+}

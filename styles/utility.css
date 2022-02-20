@@ -29,6 +29,10 @@
   margin-left: 32rem;
 }
 
+.mr-16 {
+  margin-right: 4rem;
+}
+
 .pt-8 {
   padding-top: 4rem;
 }
@@ -75,4 +79,36 @@
 
 .pt-32 {
   padding-top: 8rem;
+}
+
+.py-2 {
+  padding: 0.5rem 0;
+}
+
+.py-4 {
+  padding: 1rem 0;
+}
+
+.pb-2 {
+  padding: 0.5rem 0;
+}
+
+.pb-4 {
+  padding: 1rem 0;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: space-between;
 }
