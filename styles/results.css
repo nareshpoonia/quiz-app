@@ -1,0 +1,52 @@
+@import url(/styles/utility.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+
+:root {
+  --box-shadow: rgba(0, 0, 0, 0.2);
+  --right-answer: rgb(60, 179, 113);
+  --wrong-answer: rgb(255, 0, 0);
+}
+
+.img-uniform-size {
+  width: 100%;
+  min-width: 22rem;
+  height: 17vw;
+  object-fit: cover;
+}
+
+.avatar {
+  margin-right: 5rem;
+  width: 40rem;
+  height: 40rem;
+}
+
+.card-container {
+  max-width: 50rem;
+  box-shadow: 0 2px 4px 0 var(--box-shadow), 0 4px 16px 0 var(--box-shadow);
+  border: transparent solid;
+}
+
+.mcq-container {
+  width: 50rem;
+  box-shadow: 0 2px 4px 0 var(--box-shadow), 0 4px 16px 0 var(--box-shadow);
+}
+
+.options {
+  border: 1px solid var(--primary-color);
+  width: 90%;
+  border-radius: 5px;
+}
+
+.btn-link {
+  padding: 3px 3px;
+}
+
+.option-list .wrong {
+  background-color: var(--wrong-answer);
+  color: white;
+}
+
+.option-list .right {
+  background-color: var(--right-answer);
+  color: white;
+}
