@@ -27,7 +27,6 @@ This Website has following pages:
 - [Quizzes by Category](https://naresh-quiz-app.netlify.app/html/web-series.html)
 - [Rules Page for while attempting Quiz](https://naresh-quiz-app.netlify.app/html/rules.html)
 - [MCQ based Quiz Question Page](https://naresh-quiz-app.netlify.app/html/mcq.html)
-- [Result Page with Answers & Score](https://naresh-quiz-app.netlify.app/html/mcq.html)
 - [Result Page with Answers & Score](https://naresh-quiz-app.netlify.app/html/results.html)
 
 ### Links
