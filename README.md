@@ -1,4 +1,4 @@
-# Quick App
+# Quiz App
 
 This is part of Week Two Assignment of [Neog Camp](https://neog.camp/).
 With Neog Camp get so good that your work becomes your certificate. Your masterpiece becomes your credentials.
